@@ -27,29 +27,29 @@ System logs and kernel logs are critical for debugging production infrastructure
 
 ## Commands Practiced
 
-top  
+`top`  
 Monitored live system processes and system resource usage  
 
-q  
+`q`  
 Exited the `top` interface  
 
-ps aux  
+`ps aux`  
 Viewed all currently running processes  
 
-ps aux | grep <process>  
+`ps aux | grep <process>`  
 Searched for specific running processes  
 
-sleep 1000 &  
+`sleep 1000 &`  
 Created a safe background process for testing  
 
-kill <PID>  
+`kill <PID>`
 Terminated a running process using its PID  
 
-ls /var/log  
+`ls /var/log`  
 Listed system log files  
 
-sudo tail -n 20 /var/log/kern.log  
+`sudo tail -n 20 /var/log/kern.log`  
 Viewed recent kernel log entries  
 
-nproc  
+`nproc`  
 Checked the number of CPU cores
